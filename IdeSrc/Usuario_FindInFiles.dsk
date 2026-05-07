@@ -1,0 +1,14 @@
+[Header]
+Mask=*.src;*.vw;*.sl;*.dg;*.rv;*.bp;*.pkg;*.wo;*.dd;*.inc;*.tpl;*.dfo;*.asp;*.asa;*.html;*.css;*.js
+Active=0
+SubDirectories=1
+WholeWordOnly=0
+RegularExpression=0
+SearchWhere=0
+Location=C:\Users\Usuario\Desktop\Programas para DAM\DataFlex Proyectos\IdeSrc\Usuario_FindInFiles.dsk
+[C:\Users\Usuario\Desktop\Programas para DAM\DataFlex Proyectos\AppSrc]
+IsEnabled=1
+[C:\Users\Usuario\Desktop\Programas para DAM\DataFlex Proyectos\DDSrc]
+IsEnabled=1
+[C:\Users\Usuario\Desktop\Programas para DAM\DataFlex Proyectos\AppHtml]
+IsEnabled=1
