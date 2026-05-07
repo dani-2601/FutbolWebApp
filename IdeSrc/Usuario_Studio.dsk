@@ -1,13 +1,13 @@
 [Workspace]
 CurrentProject=WebApp.src
-Location=C:\Users\Usuario\Desktop\Programas para DAM\DataFlex Proyectos\IdeSrc\Usuario_Studio.dsk
-CreateNew=-1
+Location=C:\Users\Usuario\Desktop\Programas para DAM\DataFlex Proyectos\FutbolWebApp\IdeSrc\Usuario_Studio.dsk
+CreateNew=3
 [TabWindows]
 GroupCount=1
 HorizontalGroups=1
 [TabGroup0]
 GroupSize=40
-SelectedTab=1
+SelectedTab=3
 [Window0]
 Filename=Workspace Dashboard
 ViewType=101
@@ -18,7 +18,7 @@ Right=995
 TabIndex=0
 TabGroup=0
 [Window1]
-Filename=C:\Users\Usuario\Desktop\Programas para DAM\DataFlex Proyectos\AppSrc\WebApp.src
+Filename=C:\Users\Usuario\Desktop\Programas para DAM\DataFlex Proyectos\FutbolWebApp\AppSrc\LigaSelect.wo
 ViewType=1
 Top=21
 Left=0
@@ -27,4 +27,26 @@ Right=995
 CursorLine=0
 CursorColumn=0
 TabIndex=1
+TabGroup=0
+[Window2]
+Filename=C:\Users\Usuario\Desktop\Programas para DAM\DataFlex Proyectos\FutbolWebApp\AppSrc\LigaZoom.wo
+ViewType=1
+Top=21
+Left=0
+Bottom=694
+Right=995
+CursorLine=14
+CursorColumn=41
+TabIndex=2
+TabGroup=0
+[Window3]
+Filename=C:\Users\Usuario\Desktop\Programas para DAM\DataFlex 25.0\Pkg\cWebAppBase_Mixin.pkg
+ViewType=1
+Top=21
+Left=0
+Bottom=694
+Right=995
+CursorLine=292
+CursorColumn=0
+TabIndex=3
 TabGroup=0

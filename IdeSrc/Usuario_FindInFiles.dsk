@@ -5,10 +5,10 @@ SubDirectories=1
 WholeWordOnly=0
 RegularExpression=0
 SearchWhere=0
-Location=C:\Users\Usuario\Desktop\Programas para DAM\DataFlex Proyectos\IdeSrc\Usuario_FindInFiles.dsk
-[C:\Users\Usuario\Desktop\Programas para DAM\DataFlex Proyectos\AppSrc]
+Location=C:\Users\Usuario\Desktop\Programas para DAM\DataFlex Proyectos\FutbolWebApp\IdeSrc\Usuario_FindInFiles.dsk
+[C:\Users\Usuario\Desktop\Programas para DAM\DataFlex Proyectos\FutbolWebApp\AppSrc]
 IsEnabled=1
-[C:\Users\Usuario\Desktop\Programas para DAM\DataFlex Proyectos\DDSrc]
+[C:\Users\Usuario\Desktop\Programas para DAM\DataFlex Proyectos\FutbolWebApp\DDSrc]
 IsEnabled=1
-[C:\Users\Usuario\Desktop\Programas para DAM\DataFlex Proyectos\AppHtml]
+[C:\Users\Usuario\Desktop\Programas para DAM\DataFlex Proyectos\FutbolWebApp\AppHtml]
 IsEnabled=1
