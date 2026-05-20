@@ -2,6 +2,7 @@
 // Zoom view for liga
 //
 
+Use cWebButton.pkg
 Use cWebView.pkg
 Use cWebPanel.pkg
 Use cWebMenuGroup.pkg
@@ -9,6 +10,7 @@ Use cWebMenuItem.pkg
 Use cWebForm.pkg
 
 Use cligaDataDictionary.dd
+Use EquipoSelect.wo
 
 Object oLigaZoom is a cWebView
     Set piColumnCount to 12
@@ -68,8 +70,22 @@ Object oLigaZoom is a cWebView
             Set piColumnIndex to 0
             Set peLabelPosition to lpTop
             Set psLabel to "EquiposMax"
-        End_Object 
-    End_Object 
+        End_Object  
+        
+        Object oVerEquiposBtn is a cWebButton
+            
+            WebRegisterPath ntNavigateForward oEquipoSelect
+
+            Set psCaption to "Ver Equipos"
+            Set piColumnSpan to 3
+            Set piColumnIndex to 0
+
+             Procedure OnClick
+               Send NavigateForward of oEquipoSelect Self
+             End_Procedure
+        End_Object
+        
+    End_Object
 
     Object oActionGroup is a cWebMenuGroup
 
@@ -92,6 +108,7 @@ Object oLigaZoom is a cWebView
             End_Procedure
 
         End_Object 
+        
 
         Object oDeleteBtn is a cWebMenuItem
             Set psCSSClass to "WebDeleteMenuItem"
@@ -129,7 +146,7 @@ Object oLigaZoom is a cWebView
         WebSet pbRender of oSaveBtn to False
         WebSet pbRender of oCancelChangesBtn to False
         WebSet pbRender of oDeleteBtn to False
-
+        
         If (NavigateData.bReadOnly) Begin
             WebSet pbRender of oEditBtn to True
         End
